@@ -86,6 +86,7 @@ And here. | Okay. | I think we get it.
 		border-radius: 0rem .5rem .5rem .5rem;
 		background: white;
 		padding: 1rem;
+		overflow: scroll;
 	}
 
 	.header {
@@ -147,8 +148,8 @@ And here. | Okay. | I think we get it.
 		padding: 1rem;
 	}
 	div {
-		overflow: scroll;
 		flex-grow: 1;
+		overflow: hidden;
 	}
 	
 	.shrink {
